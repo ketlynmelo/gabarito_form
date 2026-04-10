@@ -1,0 +1,77 @@
+:root{
+    --cor-fundo:#e6c8ff;
+    --cor-fundo-2:#d9abff;
+    --cor-forms:rgba(243, 148, 243, 0.333);
+    --cor-texto: #4f005f;
+    --cor-erro: #ff4747;
+    --cor-sucesso: #94ff86;
+
+
+
+    
+}
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: flex-start;
+
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+main{
+    padding: 3%;
+    gap: 1%;
+
+    border-radius: 10%;
+    box-shadow: 10px 10px 15px rgba(68, 17, 78, 0.333);
+    background-color: var(--cor-fundo-2);
+}
+
+#form-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+#form-login input{
+    padding: 5px;
+    border-radius: 5px;
+    border: solid rgb(245, 215, 248);
+}
+
+#form-login button{
+    background-color:  var(--cor-fundo);
+    padding: 5px;
+
+}
+
+.toggle{
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    color: var(--cor-texto);
+
+}
+
+.erro{
+    color: var(--cor-erro);
+    font-size: 12px;
+    text-align: center;
+}
+
+.sucesso{
+    color: var(--cor-sucesso);
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
