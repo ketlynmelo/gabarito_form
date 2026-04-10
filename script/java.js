@@ -44,5 +44,6 @@ document.getElementById("form-login").onsubmit = (e) =>{
              mensagem.innerHTML = "<div class = 'erro'<p> Dados incorretos!</p></div>";
         }
     }
+    document.getElementById("form").reset();
 
 }
