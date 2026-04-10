@@ -6,8 +6,6 @@
     --cor-erro: #ff4747;
     --cor-sucesso: #94ff86;
 
-
-
     
 }
 
@@ -48,7 +46,9 @@ main{
 }
 
 #form-login button{
-    background-color:  var(--cor-fundo);
+    border: solid  var(--cor-fundo);
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
     padding: 5px;
 
 }
