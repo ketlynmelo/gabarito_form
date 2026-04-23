@@ -4,13 +4,7 @@
 Ketlyn de Melo
 
 ##  Descrição da atividade
-Este projeto consiste na criação de uma tela de login utilizando HTML, CSS e JavaScript.
-
-O sistema permite:
-- Inserir e-mail e senha
-- Alternar entre login e cadastro
-- Validação básica dos campos
-- Armazenamento de dados usando localStorage
+Esse site foi feito para a criançaõ de uma tela de login para as pessoas. Utilizando HTML, CSS e JavaScript
 
 ## Print 
 !![alt text](image.png)
